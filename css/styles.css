@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+}
+
+.background {
+    background: url(/images/kitchen-living-room-4043091_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.spacelogo {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+#spaceimage {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 25vw;
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 15px;
+    opacity: 0.5;
+}
+
+#spaceimage1 {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 25vw;
+    padding: 1.5em;
+    border-radius: 15px;
+    z-index: 5;
+}
+
+@media (max-width: 500px) {
+    #spaceimage,
+    #spaceimage1 {
+        width: 50vw;
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+footer {
+    text-align: center;
+    margin: 0px;
+    background-color: #282828;
+    color: white;
+    font-size: smaller;
+    width: 100%;
+}
+
+footer p {
+    margin: 0px;
+    padding: 0.25em;
+}
