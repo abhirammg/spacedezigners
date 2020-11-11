@@ -80,4 +80,6 @@ footer {
 footer p {
     margin: 0px;
     padding: 0.25em;
+    color: #807f7f;
+    font-size: smaller;
 }
